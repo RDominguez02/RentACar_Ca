@@ -1,0 +1,50 @@
+{
+  "name": "rent-car-proeycto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^1.0.6",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/material": "^5.13.5",
+    "@mui/x-data-grid": "^6.10.0",
+    "@nivo/bar": "^0.83.0",
+    "@stripe/react-stripe-js": "^2.1.1",
+    "@stripe/stripe-js": "^1.54.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.0",
+    "chart.js": "^4.3.0",
+    "easyinvoice": "^3.0.23",
+    "jspdf": "^2.5.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.3",
+    "pdfjs-dist": "^3.8.162",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-countup": "6.4.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "sweetalert2": "^11.7.20",
+    "sweetalert2-react-content": "^5.0.7",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
